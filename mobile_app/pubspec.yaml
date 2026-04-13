@@ -1,0 +1,32 @@
+name: finalp
+description: Thulamela Pothole Reporter
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^12.1.3
+  google_fonts: ^6.1.0
+  firebase_core: ^2.32.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  image_picker: ^1.0.4
+  tflite_flutter: ^0.12.1
+  image: ^4.0.17
+  geolocator: ^11.0.0
+  url_launcher: ^6.3.2
+  firebase_auth: ^4.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/pothole_detector.tflite

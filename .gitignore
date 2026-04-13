@@ -1,0 +1,25 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# IDE
+.idea/
+*.iml
+
+# Firebase / secrets
+google-services.json
+*.jks
+key.properties
+.env
+
+# Lock files
+pubspec.lock
+
+# OS files
+.DS_Store
+Thumbs.db
